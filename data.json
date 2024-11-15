@@ -1,0 +1,48 @@
+{
+    "weather": [
+        {
+            "id": 800,
+            "main": "Clear",
+            "description": "\u0938\u093e\u092b \u0906\u0915\u093e\u0936",
+            "icon": "01n"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 63.75,
+        "feels_like": 62.69,
+        "temp_min": 63.75,
+        "temp_max": 63.75,
+        "pressure": 1013,
+        "humidity": 61,
+        "sea_level": 1013,
+        "grnd_level": 991
+    },
+    "visibility": 10000,
+    "wind": {
+        "speed": 2.3,
+        "deg": 315,
+        "gust": 2.35
+    },
+    "clouds": {
+        "all": 0
+    },
+    "dt": 1731537334,
+    "sys": {
+        "country": "IN",
+        "sunrise": 1731546375,
+        "sunset": 1731585036
+    },
+    "timezone": 19800,
+    "id": 1258599,
+    "name": "R\u0101mpur",
+    "cod": 200
+}
+
+condition = response.data.weather.main;
+temp = response.data.main.temp;
+feels_like = response.data.main.feels_like;
+temp_min = response.data.main..temp_min;
+temp_max = response.data.main.temp_max;
+wind_speed = response.data.wind.speed;
+country = response.data.sys.country;
